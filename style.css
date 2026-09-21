@@ -1280,31 +1280,6 @@ height: 7px;
     color: #FFFFFF;
 }
 
-.welcome-status {
-    padding: 4px 12px;
-
-    border-radius: 50px;
-
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
-
-.welcome-status:empty {
-    display: none;
-}
-
-.welcome-status.abierto {
-    background: rgba(109, 178, 62, 0.25);
-    color: #A8E07A;
-}
-
-.welcome-status.cerrado {
-    background: rgba(220, 70, 60, 0.25);
-    color: #FF9C94;
-}
-
 .welcome-list {
     list-style: none;
 }

@@ -319,18 +319,11 @@ document.addEventListener(
    VENTANA DE BIENVENIDA
 ===================================================== */
 
-const HORA_APERTURA = 6;
-
-const HORA_CIERRE = 21;
-
 const welcomeOverlay =
     document.getElementById("welcomeOverlay");
 
 const welcomeClose =
     document.getElementById("welcomeClose");
-
-const welcomeStatus =
-    document.getElementById("welcomeStatus");
 
 
 function cerrarBienvenida() {
@@ -360,32 +353,6 @@ welcomeOverlay.addEventListener(
 );
 
 
-/* Indica si ahora está abierto, según la hora de Uruguay */
-
-function actualizarEstadoHorario() {
-
-    const hora = parseInt(
-        new Intl.DateTimeFormat("es-UY", {
-            hour: "numeric",
-            hour12: false,
-            timeZone: "America/Montevideo"
-        }).format(new Date()),
-        10
-    ) % 24;
-
-    const abierto =
-        hora >= HORA_APERTURA && hora < HORA_CIERRE;
-
-    welcomeStatus.textContent =
-        abierto ? "Abierto ahora" : "Cerrado ahora";
-
-    welcomeStatus.className =
-        "welcome-status " + (abierto ? "abierto" : "cerrado");
-
-}
-
-
-actualizarEstadoHorario();
 
 
 
