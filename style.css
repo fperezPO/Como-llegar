@@ -1,0 +1,1486 @@
+/* =====================================================
+   VARIABLES CORPORATIVAS
+===================================================== */
+
+:root {
+
+    --verde-polo: #6DB23E;
+
+    --verde-oscuro: #4F8E32;
+
+    --verde-profundo: #315C2B;
+
+    --verde-claro: #8CC95C;
+
+    --gris-logo: #626467;
+
+    --gris-texto: #5B5B5B;
+
+    --gris-oscuro: #414345;
+
+    --blanco: #FFFFFF;
+
+}
+
+
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+html,
+body {
+
+    width: 100%;
+
+    min-height: 100%;
+
+}
+
+
+body {
+
+    font-family:
+        'Lato',
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    color:
+        var(--gris-texto);
+
+    overflow-x:
+        hidden;
+
+}
+
+
+/* =====================================================
+   PÁGINA
+===================================================== */
+
+.page {
+
+    position:
+        relative;
+
+    z-index:
+        10;
+
+    min-height:
+        100vh;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+}
+
+
+/* =====================================================
+   FONDO
+===================================================== */
+
+.background {
+
+    position:
+        fixed;
+
+    inset:
+        0;
+
+    z-index:
+        0;
+
+    overflow:
+        hidden;
+
+    background:
+
+        radial-gradient(
+            ellipse at 50% 35%,
+            rgba(145, 205, 86, 0.95) 0%,
+            rgba(109, 178, 62, 0.90) 30%,
+            rgba(72, 127, 48, 0.95) 70%,
+            rgba(43, 83, 40, 1) 100%
+        );
+
+}
+
+
+/* =====================================================
+   ILUMINACIÓN CENTRAL
+===================================================== */
+
+.background::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    width:
+        900px;
+
+    height:
+        700px;
+
+    left:
+        50%;
+
+    top:
+        35%;
+
+    transform:
+        translate(-50%, -50%);
+
+    background:
+
+        radial-gradient(
+            ellipse,
+            rgba(205, 235, 140, 0.28) 0%,
+            rgba(150, 205, 90, 0.12) 40%,
+            transparent 75%
+        );
+
+    pointer-events:
+        none;
+
+}
+
+
+/* =====================================================
+   TRIÁNGULOS
+===================================================== */
+
+.triangle {
+
+    position:
+        absolute;
+
+    width:
+        0;
+
+    height:
+        0;
+
+    pointer-events:
+        none;
+
+}
+
+
+.triangle-1 {
+
+    border-left:
+        230px solid transparent;
+
+    border-right:
+        230px solid transparent;
+
+    border-bottom:
+        390px solid rgba(255, 255, 255, 0.12);
+
+    left:
+        -150px;
+
+    top:
+        10%;
+
+    transform:
+        rotate(-18deg);
+
+}
+
+
+.triangle-2 {
+
+    border-left:
+        180px solid transparent;
+
+    border-right:
+        180px solid transparent;
+
+    border-bottom:
+        320px solid rgba(40, 90, 35, 0.25);
+
+    left:
+        -80px;
+
+    bottom:
+        5%;
+
+    transform:
+        rotate(28deg);
+
+}
+
+
+.triangle-3 {
+
+    border-left:
+        300px solid transparent;
+
+    border-right:
+        300px solid transparent;
+
+    border-bottom:
+        520px solid rgba(255, 255, 255, 0.07);
+
+    left:
+        25%;
+
+    bottom:
+        -400px;
+
+    transform:
+        rotate(18deg);
+
+}
+
+
+.triangle-4 {
+
+    border-left:
+        260px solid transparent;
+
+    border-right:
+        260px solid transparent;
+
+    border-bottom:
+        440px solid rgba(36, 83, 33, 0.20);
+
+    right:
+        -130px;
+
+    top:
+        15%;
+
+    transform:
+        rotate(-25deg);
+
+}
+
+
+.triangle-5 {
+
+    border-left:
+        170px solid transparent;
+
+    border-right:
+        170px solid transparent;
+
+    border-bottom:
+        290px solid rgba(255, 255, 255, 0.09);
+
+    right:
+        12%;
+
+    bottom:
+        10%;
+
+    transform:
+        rotate(35deg);
+
+}
+
+
+.triangle-6 {
+
+    border-left:
+        120px solid transparent;
+
+    border-right:
+        120px solid transparent;
+
+    border-bottom:
+        220px solid rgba(40, 90, 35, 0.18);
+
+    left:
+        48%;
+
+    top:
+        5%;
+
+    transform:
+        rotate(-15deg);
+
+}
+
+
+/* =====================================================
+   CÍRCULOS DE PROFUNDIDAD
+===================================================== */
+
+.background-circle {
+
+    position:
+        absolute;
+
+    border-radius:
+        50%;
+
+    pointer-events:
+        none;
+
+    filter:
+        blur(3px);
+
+}
+
+
+.circle-1 {
+
+    width:
+        500px;
+
+    height:
+        500px;
+
+    left:
+        -250px;
+
+    top:
+        25%;
+
+    background:
+        rgba(255, 255, 255, 0.06);
+
+}
+
+
+.circle-2 {
+
+    width:
+        650px;
+
+    height:
+        650px;
+
+    right:
+        -300px;
+
+    bottom:
+        -250px;
+
+    background:
+        rgba(20, 70, 25, 0.12);
+
+}
+
+
+.circle-3 {
+
+    width:
+        350px;
+
+    height:
+        350px;
+
+    left:
+        45%;
+
+    top:
+        55%;
+
+    background:
+        rgba(190, 230, 120, 0.08);
+
+}
+
+
+/* =====================================================
+   TEXTURA
+===================================================== */
+
+.texture {
+
+    position:
+        absolute;
+
+    inset:
+        0;
+
+    opacity:
+        0.12;
+
+    background-image:
+
+        radial-gradient(
+            rgba(255,255,255,0.8) 1px,
+            transparent 1px
+        );
+
+    background-size:
+        14px 14px;
+
+    mask-image:
+
+        radial-gradient(
+            ellipse at center,
+            black 0%,
+            transparent 75%
+        );
+
+}
+
+
+/* =====================================================
+   ENCABEZADO
+===================================================== */
+
+.header {
+
+    position:
+        relative;
+
+    min-height:
+        140px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    padding:
+        15px 70px;
+
+    background:
+
+        radial-gradient(
+            ellipse at center,
+            #F4F4F4 0%,
+            #E8E8E8 45%,
+            #D3D3D3 100%
+        );
+
+    box-shadow:
+        0 5px 20px
+        rgba(0, 0, 0, 0.22);
+
+    border-bottom:
+        3px solid var(--verde-polo);
+
+    overflow:
+        hidden;
+
+}
+
+
+/* =====================================================
+   EFECTO DEL ENCABEZADO
+===================================================== */
+
+.header::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    width:
+        500px;
+
+    height:
+        300px;
+
+    right:
+        -100px;
+
+    top:
+        -120px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            transparent 49%,
+            rgba(255,255,255,0.35) 50%,
+            transparent 51%
+        );
+
+    transform:
+        rotate(15deg);
+
+    pointer-events:
+        none;
+
+}
+
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.logo-container {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    flex-shrink:
+        0;
+
+}
+
+
+.logo {
+
+    display:
+        block;
+
+    width:
+        290px;
+
+    max-width:
+        290px;
+
+    height:
+        auto;
+
+    object-fit:
+        contain;
+
+}
+
+
+/* =====================================================
+   TÍTULO
+===================================================== */
+
+.header-title {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    margin-left:
+        65px;
+
+}
+
+
+.header-title h1 {
+
+    font-size:
+        46px;
+
+    line-height:
+        1.15;
+
+    font-weight:
+        400;
+
+    color:
+        var(--gris-logo);
+
+    margin-bottom:
+        8px;
+
+    letter-spacing:
+        0.2px;
+
+}
+
+
+.header-title p {
+
+    font-size:
+        25px;
+
+    line-height:
+        1.2;
+
+    font-weight:
+        300;
+
+    color:
+        var(--gris-texto);
+
+}
+
+
+/* =====================================================
+   CONTENIDO PRINCIPAL
+===================================================== */
+
+.main-container {
+
+    flex:
+        1;
+
+    width:
+        100%;
+
+    max-width:
+        1250px;
+
+    margin:
+        0 auto;
+
+    padding:
+        45px 30px 55px;
+
+}
+
+
+/* =====================================================
+   GRID
+===================================================== */
+
+.destinos-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap:
+        28px;
+
+}
+
+
+/* =====================================================
+   BOTONES
+===================================================== */
+
+.destino-button {
+    position: relative;
+    min-height: 125px;
+    padding: 25px 20px;
+
+    border: 1px solid rgba(109, 178, 62, 0.12);
+    border-radius: 16px;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,0.98) 0%,
+            rgba(248,248,248,0.96) 100%
+        );
+
+    color: var(--gris-texto);
+
+    font-family:
+        'Lato',
+        Arial,
+        sans-serif;
+
+    font-size: 21px;
+    font-weight: 500;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.14),
+        0 2px 6px rgba(0,0,0,0.06);
+
+    transition:
+        transform 0.28s ease,
+        box-shadow 0.28s ease,
+        border-color 0.28s ease,
+        background 0.28s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    overflow: hidden;
+
+    backdrop-filter: blur(6px);
+}
+
+
+/* =====================================================
+   BARRA VERDE
+===================================================== */
+
+.destino-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 5px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--verde-profundo),
+            var(--verde-polo),
+            var(--verde-claro)
+        );
+
+    transition:
+        height 0.28s ease,
+        opacity 0.28s ease;
+
+    opacity: 0.9;
+}
+
+/* =====================================================
+   HOVER
+===================================================== */
+
+.destino-button:hover {
+    transform: translateY(-6px);
+
+    border-color:
+        rgba(109,178,62,0.35);
+
+    box-shadow:
+        0 18px 35px rgba(0,0,0,0.18),
+        0 8px 15px rgba(109,178,62,0.10);
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff 0%,
+            #fafcf8 100%
+        );
+}
+
+
+.destino-button:hover::after {
+
+height: 7px;
+
+}
+
+
+/* =====================================================
+   CLICK
+===================================================== */
+
+.destino-button:active {
+    transform:
+        translateY(-2px)
+        scale(0.985);
+
+    box-shadow:
+        0 8px 16px rgba(0,0,0,0.16);
+}
+
+
+/* =====================================================
+   MODAL DE DESTINO
+===================================================== */
+
+.modal-overlay {
+
+    position:
+        fixed;
+
+    inset:
+        0;
+
+    z-index:
+        1000;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    padding:
+        20px;
+
+    background:
+        rgba(20, 35, 15, 0.68);
+
+    backdrop-filter:
+        blur(5px);
+
+    opacity:
+        0;
+
+    visibility:
+        hidden;
+
+    transition:
+        opacity 0.25s ease,
+        visibility 0.25s ease;
+
+}
+
+
+.modal-overlay.active {
+
+    opacity:
+        1;
+
+    visibility:
+        visible;
+
+}
+
+
+.modal-card {
+
+    position:
+        relative;
+
+    width:
+        100%;
+
+    max-width:
+        560px;
+
+    background:
+        var(--blanco);
+
+    border-radius:
+        22px;
+
+    overflow:
+        hidden;
+
+    box-shadow:
+        0 30px 70px rgba(0, 0, 0, 0.4);
+
+    transform:
+        scale(0.92) translateY(25px);
+
+    transition:
+        transform 0.3s ease;
+
+}
+
+
+.modal-overlay.active .modal-card {
+
+    transform:
+        scale(1) translateY(0);
+
+}
+
+
+/* =====================================================
+   BOTÓN CERRAR
+===================================================== */
+
+.modal-close {
+
+    position:
+        absolute;
+
+    top:
+        14px;
+
+    right:
+        14px;
+
+    z-index:
+        2;
+
+    width:
+        40px;
+
+    height:
+        40px;
+
+    border:
+        none;
+
+    border-radius:
+        50%;
+
+    background:
+        rgba(0, 0, 0, 0.45);
+
+    color:
+        var(--blanco);
+
+    font-size:
+        24px;
+
+    line-height:
+        1;
+
+    cursor:
+        pointer;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    transition:
+        background 0.2s ease;
+
+}
+
+
+.modal-close:hover {
+
+    background:
+        rgba(0, 0, 0, 0.65);
+
+}
+
+
+/* =====================================================
+   IMAGEN DEL DESTINO
+===================================================== */
+
+.modal-image {
+
+    display:
+        block;
+
+    width:
+        100%;
+
+    height:
+        300px;
+
+    object-fit:
+        cover;
+
+    background:
+        #EDEDED;
+
+}
+
+
+/* =====================================================
+   CUERPO DEL MODAL
+===================================================== */
+
+.modal-body {
+
+    padding:
+        26px 30px 32px;
+
+    text-align:
+        center;
+
+}
+
+
+.modal-title {
+
+    font-size:
+        27px;
+
+    font-weight:
+        500;
+
+    color:
+        var(--gris-logo);
+
+    margin-bottom:
+        22px;
+
+    line-height:
+        1.2;
+
+}
+
+
+/* =====================================================
+   BOTÓN "IR"
+===================================================== */
+
+.modal-go-button {
+
+    min-width:
+        220px;
+
+    padding:
+        16px 40px;
+
+    border:
+        none;
+
+    border-radius:
+        50px;
+
+    cursor:
+        pointer;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--verde-claro),
+            var(--verde-polo) 55%,
+            var(--verde-oscuro)
+        );
+
+    color:
+        var(--blanco);
+
+    font-family:
+        'Lato',
+        Arial,
+        sans-serif;
+
+    font-size:
+        20px;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.5px;
+
+    text-transform:
+        uppercase;
+
+    box-shadow:
+        0 10px 25px rgba(79, 142, 50, 0.45);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+}
+
+
+.modal-go-button:hover {
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 16px 32px rgba(79, 142, 50, 0.55);
+
+}
+
+
+.modal-go-button:active {
+
+    transform:
+        translateY(-1px)
+        scale(0.98);
+
+}
+
+
+/* =====================================================
+   MODAL EN CELULAR
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .modal-image {
+
+        height:
+            190px;
+
+    }
+
+
+    .modal-body {
+
+        padding:
+            20px 20px 26px;
+
+    }
+
+
+    .modal-title {
+
+        font-size:
+            21px;
+
+        margin-bottom:
+            16px;
+
+    }
+
+
+    .modal-go-button {
+
+        width:
+            100%;
+
+        min-width:
+            0;
+
+        padding:
+            15px 20px;
+
+        font-size:
+            18px;
+
+    }
+
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+
+    min-height:
+        55px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    gap:
+        20px;
+
+    background:
+        rgba(40, 78, 34, 0.94);
+
+    color:
+        #FFFFFF;
+
+    font-size:
+        15px;
+
+    font-weight:
+        300;
+
+    letter-spacing:
+        0.4px;
+
+}
+
+
+.footer-line {
+
+    width:
+        100px;
+
+    height:
+        1px;
+
+    background:
+        var(--verde-polo);
+
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+
+    .header {
+
+        padding:
+            15px 40px;
+
+    }
+
+
+    .logo {
+
+        width:
+            240px;
+
+        max-width:
+            240px;
+
+    }
+
+
+    .header-title {
+
+        margin-left:
+            40px;
+
+    }
+
+
+    .header-title h1 {
+
+        font-size:
+            37px;
+
+    }
+
+
+    .header-title p {
+
+        font-size:
+            20px;
+
+    }
+
+
+    .destinos-grid {
+
+        grid-template-columns:
+            repeat(3, 1fr);
+
+    }
+
+}
+
+
+/* =====================================================
+   TABLET PEQUEÑA
+===================================================== */
+
+@media (max-width: 800px) {
+
+    .header {
+
+        min-height:
+            120px;
+
+        padding:
+            15px 25px;
+
+    }
+
+
+    .logo {
+
+        width:
+            200px;
+
+        max-width:
+            200px;
+
+    }
+
+
+    .header-title {
+
+        margin-left:
+            25px;
+
+    }
+
+
+    .header-title h1 {
+
+        font-size:
+            32px;
+
+    }
+
+
+    .header-title p {
+
+        font-size:
+            18px;
+
+    }
+
+
+    .destinos-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+}
+
+
+/* =====================================================
+   CELULAR
+===================================================== */
+
+@media (max-width: 600px) {
+
+
+    /* ================================================
+       ENCABEZADO
+    ================================================ */
+
+    .header {
+
+        flex-direction:
+            column;
+
+        justify-content:
+            center;
+
+        align-items:
+            center;
+
+        text-align:
+            center;
+
+        min-height:
+            150px;
+
+        padding:
+            4px 12px 6px;
+
+    }
+
+
+    /* ================================================
+       LOGO
+    ================================================ */
+
+    .logo {
+
+        width:
+            210px;
+
+        max-width:
+            210px;
+
+    }
+
+
+    /* ================================================
+       TÍTULO
+    ================================================ */
+
+    .header-title {
+
+        margin:
+            3px 0 0 0;
+
+    }
+
+
+    .header-title h1 {
+
+        font-size:
+            27px;
+
+        line-height:
+            1.05;
+
+        margin-bottom:
+            2px;
+
+    }
+
+
+    .header-title p {
+
+        font-size:
+            17px;
+
+        line-height:
+            1.05;
+
+    }
+
+
+    /* ================================================
+       CONTENIDO
+    ================================================ */
+
+    .main-container {
+
+        padding:
+            55px 30px 65px;
+
+    }
+
+
+    /* ================================================
+       DOS BOTONES POR FILA
+    ================================================ */
+
+    .destinos-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap:
+            10px;
+
+    }
+
+
+    /* ================================================
+       BOTONES
+       
+       ÚNICO CAMBIO DE ESTA VERSIÓN:
+       15px → 17px
+    ================================================ */
+
+.destino-button {
+    min-height: 75px;
+    padding: 12px 8px;
+    font-size: 17px;
+    line-height: 1.2;
+    border-radius: 12px;
+}
+
+
+    /* ================================================
+       BARRA VERDE
+    ================================================ */
+
+    .destino-button::after {
+
+        height:
+            4px;
+
+    }
+
+
+    /* ================================================
+       FOOTER
+    ================================================ */
+
+    .footer {
+
+        min-height:
+            45px;
+
+        font-size:
+            13px;
+
+    }
+
+
+    .footer-line {
+
+        width:
+            50px;
+
+    }
+
+}
