@@ -203,6 +203,102 @@
 
 
     <!-- =========================================
+         VENTANA DE BIENVENIDA
+         (información de ejemplo: reemplazar por la real)
+    ========================================== -->
+
+    <div
+        class="welcome-overlay active"
+        id="welcomeOverlay"
+    >
+
+        <div
+            class="welcome-card"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="welcomeTitle"
+        >
+
+            <button
+                class="welcome-close"
+                id="welcomeClose"
+                aria-label="Cerrar"
+            >
+                &times;
+            </button>
+
+            <h2
+                class="welcome-title"
+                id="welcomeTitle"
+            >
+                Información importante
+            </h2>
+
+            <div class="welcome-scroll">
+
+                <!-- HORARIO -->
+
+                <section class="welcome-section">
+
+                    <h3>Horario de atención</h3>
+
+                    <div class="welcome-hours">
+
+                        <span class="welcome-hours-time">
+                            06:00 a 21:00
+                        </span>
+
+                        <span
+                            class="welcome-status"
+                            id="welcomeStatus"
+                        ></span>
+
+                    </div>
+
+                </section>
+
+
+                <!-- NORMAS DE SEGURIDAD -->
+
+                <section class="welcome-section">
+
+                    <h3>Normas básicas de seguridad</h3>
+
+                    <ul class="welcome-list">
+                        <li>Uso obligatorio de chaleco reflectivo y calzado de seguridad fuera del vehículo.</li>
+                        <li>Velocidad máxima dentro del predio: 10 km/h.</li>
+                        <li>Respetar la señalización y las zonas peatonales.</li>
+                        <li>Estacionar únicamente en los sectores habilitados.</li>
+                        <li>Apagar el motor durante la carga y descarga.</li>
+                        <li>Prohibido fumar y usar el celular mientras se conduce.</li>
+                    </ul>
+
+                </section>
+
+
+                <!-- PREDIOS OPERATIVOS -->
+
+                <section class="welcome-section">
+
+                    <h3>Predios operativos</h3>
+
+                    <ul class="welcome-list">
+                        <li>Predio Norte: recepción y despacho de mercadería.</li>
+                        <li>Predio Sur: depósito y almacenaje.</li>
+                        <li>Predio Este: playa de espera de vehículos.</li>
+                    </ul>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================
          JAVASCRIPT
     ========================================== -->
 
