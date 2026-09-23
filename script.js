@@ -8,14 +8,28 @@ const destinos = [
     {
         nombre: "Emergent",
         lat: -34.858899,
-        lng: -56.287255
+        lng: -56.287255,
+        lugares: [
+            { nombre: "Aker 1", lat: -34.85924638918807, lng: -56.28718751721471 },
+            { nombre: "Aker 2", lat: -34.86002288735568, lng: -56.28666970255339 },
+            { nombre: "Oficinas", lat: -34.85878051187051, lng: -56.28769406285219 },
+            { nombre: "Planta 9", lat: -34.85874803541392, lng: -56.28444317961428 },
+            { nombre: "Planta 8", lat: -34.85948571243096, lng: -56.28431421027202 },
+            { nombre: "Planta 5", lat: -34.85894723998614, lng: -56.28648772301061 },
+            { nombre: "Planta 6", lat: -34.859557300987625, lng: -56.28632461472482 },
+            { nombre: "Planta 7", lat: -34.8597359887601, lng: -56.288059721923986 }
+        ]
     },
 
 
     {
         nombre: "Conaprole",
         lat: -34.858022,
-        lng: -56.284150
+        lng: -56.284150,
+        lugares: [
+            { nombre: "Oficinas", lat: -34.85795222454734, lng: -56.28326317041105 },
+            { nombre: "Dock carga/descarga", lat: -34.85858169221754, lng: -56.283729874728294 }
+        ]
     },
 
 
@@ -78,7 +92,11 @@ const destinos = [
     {
         nombre: "Unilever",
         lat: -34.856472,
-        lng: -56.287021
+        lng: -56.287021,
+        lugares: [
+            { nombre: "Oficinas", lat: -34.85663288968468, lng: -56.286950001137576 },
+            { nombre: "Dock cargas Unilever", lat: -34.85577698868418, lng: -56.287364662357746 }
+        ]
     },
 
 
@@ -99,7 +117,11 @@ const destinos = [
     {
         nombre: "Pepsico",
         lat: -34.854657,
-        lng: -56.285504
+        lng: -56.285504,
+        lugares: [
+            { nombre: "Oficinas", lat: -34.854562483891065, lng: -56.28409840763514 },
+            { nombre: "Dock cargas Pepsico", lat: -34.8551043018143, lng: -56.285769811322545 }
+        ]
     },
 
 
@@ -143,8 +165,8 @@ const modalImage =
 const modalTitle =
     document.getElementById("modalTitle");
 
-const modalGoButton =
-    document.getElementById("modalGoButton");
+const modalActions =
+    document.getElementById("modalActions");
 
 const modalCloseButton =
     document.getElementById("modalClose");
@@ -259,6 +281,8 @@ function abrirModal(destino) {
     modalImage.src =
         rutaImagen(destino);
 
+    crearBotonesDeLugar(destino);
+
     modalOverlay.classList.add("active");
 
 }
@@ -357,21 +381,56 @@ welcomeOverlay.addEventListener(
 
 
 /* =====================================================
-   BOTÓN "IR" -> ABRIR GOOGLE MAPS
+   BOTONES DEL MODAL -> ABRIR GOOGLE MAPS
+   Si el destino tiene "lugares", un botón por lugar.
+   Si no, un único botón "Ir" con las coordenadas del destino.
 ===================================================== */
 
-modalGoButton.addEventListener(
-    "click",
-    function() {
+function crearBotonesDeLugar(destino) {
 
-        if (destinoSeleccionado) {
+    modalActions.innerHTML = "";
 
-            irADestino(destinoSeleccionado);
 
-        }
+    const tieneLugares =
+        destino.lugares && destino.lugares.length > 0;
 
-    }
-);
+    modalActions.classList.toggle(
+        "modal-actions--grid",
+        tieneLugares
+    );
+
+
+    const puntos =
+        destino.lugares && destino.lugares.length > 0
+            ? destino.lugares
+            : [{ nombre: "Ir", lat: destino.lat, lng: destino.lng }];
+
+
+    puntos.forEach(function(punto) {
+
+        const boton =
+            document.createElement("button");
+
+        boton.className =
+            "modal-go-button";
+
+        boton.textContent =
+            punto.nombre;
+
+        boton.addEventListener(
+            "click",
+            function() {
+
+                irADestino(punto);
+
+            }
+        );
+
+        modalActions.appendChild(boton);
+
+    });
+
+}
 
 
 function irADestino(destino) {
