@@ -24,6 +24,16 @@
 
 
     <!-- =========================================
+         MAPA DEL PREDIO (Leaflet)
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+    >
+
+
+    <!-- =========================================
          HOJA DE ESTILOS
     ========================================== -->
 
@@ -203,6 +213,80 @@
 
 
     <!-- =========================================
+         MAPA DEL PREDIO
+         (vista satelital con el destino y la
+          ubicación del chofer en vivo)
+    ========================================== -->
+
+    <div
+        class="mapa-overlay"
+        id="mapaOverlay"
+    >
+
+        <header class="mapa-header">
+
+            <button
+                class="mapa-volver"
+                id="mapaVolver"
+                aria-label="Volver"
+            >
+                &#8592;
+            </button>
+
+            <div class="mapa-titulos">
+
+                <h2
+                    class="mapa-titulo"
+                    id="mapaTitulo"
+                ></h2>
+
+                <p
+                    class="mapa-subtitulo"
+                    id="mapaSubtitulo"
+                ></p>
+
+            </div>
+
+        </header>
+
+        <div
+            class="mapa-contenedor"
+            id="mapaContenedor"
+        ></div>
+
+        <footer class="mapa-footer">
+
+
+            <p
+                class="mapa-estado"
+                id="mapaEstado"
+            ></p>
+
+            <div class="mapa-botones">
+
+                <button
+                    class="mapa-centrar"
+                    id="mapaCentrar"
+                >
+                    Mi ubicación
+                </button>
+
+                <button
+                    class="modal-go-button mapa-google"
+                    id="mapaGoogle"
+                >
+                    Abrir en Google Maps
+                </button>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+    <!-- =========================================
          VENTANA DE BIENVENIDA
          (información de ejemplo: reemplazar por la real)
     ========================================== -->
@@ -280,6 +364,10 @@
     <!-- =========================================
          JAVASCRIPT
     ========================================== -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+    <script src="mapa-predio.js"></script>
 
     <script src="script.js"></script>
 

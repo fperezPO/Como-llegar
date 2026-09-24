@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="10lzXJ81c0Yi-K6BiWSRsP1JnH_kd-Fi9">
+	<name>Calles y destinos Polo 5</name>
+	<gx:CascadingStyle kml:id="__managed_style_0B0A937D844209300820_highlight">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>36</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0B0A937D844209300820_normal">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>24</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B0A937D844209300820">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0B0A937D844209300820_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0B0A937D844209300820_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_046F50CEB64208D59D7E_highlight">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_046F50CEB64208D59D7E_normal">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_046F50CEB64208D59D7E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_046F50CEB64208D59D7E_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_046F50CEB64208D59D7E_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="09F21641D04208F402F0">
+		<name>control-acceso</name>
+		<LookAt>
+			<longitude>-56.2885418814292</longitude>
+			<latitude>-34.85911707487847</latitude>
+			<altitude>25.73974906827702</altitude>
+			<heading>350.1387263591398</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>66.1200877887768</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28867075425995,-34.85917093368612,25.89956888621001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03A2BC264F4208F4EA70">
+		<name>AKER 1</name>
+		<LookAt>
+			<longitude>-56.28710069293801</longitude>
+			<latitude>-34.85927256948947</latitude>
+			<altitude>26.44093163795545</altitude>
+			<heading>350.1377325757326</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>197.6897180336528</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28715088524074,-34.859192340856,25.78065170986886</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C0DD0D5474208F543F1">
+		<name>AKER 2</name>
+		<LookAt>
+			<longitude>-56.28686295379823</longitude>
+			<latitude>-34.85969347244266</latitude>
+			<altitude>29.33667025159473</altitude>
+			<heading>350.1375957752838</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>194.7939783024412</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28672539979543,-34.85994166702697,30.71539806198459</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="046723D2F24208F5DAD9">
+		<name>OFICINAS EMERGENT</name>
+		<LookAt>
+			<longitude>-56.28728794045787</longitude>
+			<latitude>-34.85869231037241</latitude>
+			<altitude>24.19966045213658</altitude>
+			<heading>350.1378067700688</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>228.2268309853317</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28759315864814,-34.85874379129003,24.04574165467868</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05985686614208F62380">
+		<name>PLANTA 9</name>
+		<LookAt>
+			<longitude>-56.28481653400485</longitude>
+			<latitude>-34.85869076230108</latitude>
+			<altitude>21.909378307135</altitude>
+			<heading>350.1363923831527</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>230.5171022884679</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.284317764647,-34.85863555664088,20.02719592817951</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AD4A9C0524208F670A6">
+		<name>PLANTA 8</name>
+		<LookAt>
+			<longitude>-56.28464671726676</longitude>
+			<latitude>-34.85952281822378</latitude>
+			<altitude>21.73251965046858</altitude>
+			<heading>350.1362923604937</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>230.6939705491823</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28413754828441,-34.85948607499056,20.02716630685669</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AD1AF9D3B4208F6D6C9">
+		<name>PLANTA 5</name>
+		<LookAt>
+			<longitude>-56.2865597903687</longitude>
+			<latitude>-34.85880137717457</latitude>
+			<altitude>24.19965636521736</altitude>
+			<heading>350.1371959888003</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>243.5810634572045</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28674255238793,-34.85886928855122,24.04512799434993</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DA75C7DEF4208F719B6">
+		<name>PLANTA 6</name>
+		<LookAt>
+			<longitude>-56.28653808996718</longitude>
+			<latitude>-34.85936377344976</latitude>
+			<altitude>27.14874217206682</altitude>
+			<heading>350.1371823204612</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>240.6319688922667</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28660471516432,-34.85951445214383,28.23753364262141</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CE79E85344208F75B66">
+		<name>PLANTA 7</name>
+		<LookAt>
+			<longitude>-56.28805449248004</longitude>
+			<latitude>-34.85970990922159</latitude>
+			<altitude>27.14828970809377</altitude>
+			<heading>350.1380318672315</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>44.87542199121436</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28805326688683,-34.85972897611306,27.185275113294</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02034EA5894208F7B5B1">
+		<name>DOCK/CARGA DESCARGA CONAPROLE</name>
+		<LookAt>
+			<longitude>-56.28385871066997</longitude>
+			<latitude>-34.85861371923046</latitude>
+			<altitude>19.30771905609489</altitude>
+			<heading>350.1359064384569</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>256.1815653491431</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28380784543667,-34.85852470352136,19.23747583998032</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03F0AB61C94208F7F07B">
+		<name>OFICINAS CONAPROLE</name>
+		<LookAt>
+			<longitude>-56.28389707673405</longitude>
+			<latitude>-34.85822187071962</latitude>
+			<altitude>19.3363216269386</altitude>
+			<heading>350.1359272700203</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>256.1529641915331</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28363832369639,-34.85798999982952,18.66550842775741</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="046E0399F34208F82FE3">
+		<name>DAIRYCO</name>
+		<LookAt>
+			<longitude>-56.28331537866508</longitude>
+			<latitude>-34.86052665996517</latitude>
+			<altitude>22.03616965270806</altitude>
+			<heading>350.1357535216115</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>56.83724485239509</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28328334469155,-34.86060128994151,22.144683726827</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DF03510A94208F88668">
+		<name>OPERADOR LOGISTICO POLO OESTE</name>
+		<LookAt>
+			<longitude>-56.2870667249836</longitude>
+			<latitude>-34.85789885901817</latitude>
+			<altitude>23.44476649792032</altitude>
+			<heading>350.1378252210272</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>278.034588083101</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28712032098002,-34.85793046687476,23.55303811545026</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B9A32D75C4208F8D36C">
+		<name>SODIMAC</name>
+		<LookAt>
+			<longitude>-56.28724475070177</longitude>
+			<latitude>-34.85766421761691</latitude>
+			<altitude>22.48758758238882</altitude>
+			<heading>350.1379260316721</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>278.9917534038614</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28726072409373,-34.85796389177978,23.53349184921147</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C01A9DDA74208F8F866">
+		<name>MEZZANINE</name>
+		<LookAt>
+			<longitude>-56.28724475070177</longitude>
+			<latitude>-34.85766421761691</latitude>
+			<altitude>22.48758758238882</altitude>
+			<heading>350.1379260316721</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>278.9917534038614</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28720188799935,-34.85750777987602,21.98982565800384</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AEBDAC5614208F925C6">
+		<name>VASA</name>
+		<LookAt>
+			<longitude>-56.28724475070177</longitude>
+			<latitude>-34.85766421761691</latitude>
+			<altitude>22.48758758238882</altitude>
+			<heading>350.1379260316721</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>278.9917534038614</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28734933761856,-34.85750165732377,22.03617890450858</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="081215B5264208F939C1">
+		<name>CENTRO DE VERIFICACIÓN</name>
+		<LookAt>
+			<longitude>-56.28724475070177</longitude>
+			<latitude>-34.85766421761691</latitude>
+			<altitude>22.48758758238882</altitude>
+			<heading>350.1379260316721</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>278.9917534038614</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28737968995956,-34.85734924136957,21.99285985671866</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C2EB7128F4208F98190">
+		<name>INTEGRA 2</name>
+		<LookAt>
+			<longitude>-56.28733562753942</longitude>
+			<latitude>-34.85723526490765</latitude>
+			<altitude>21.97435005526335</altitude>
+			<heading>350.1379771504937</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>279.5049981640841</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28743223880748,-34.85706434217008,22.0543947887101</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ADDB16CE74208F9A6CF">
+		<name>OFICINAS POLO OESTE</name>
+		<LookAt>
+			<longitude>-56.28733562753942</longitude>
+			<latitude>-34.85723526490765</latitude>
+			<altitude>21.97435005526335</altitude>
+			<heading>350.1379771504937</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>279.5049981640841</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28694325815602,-34.85688075682724,20.96929500159182</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F9BD56E764208FA0F28">
+		<name>OFICINAS UNILEVER</name>
+		<LookAt>
+			<longitude>-56.28729064512676</longitude>
+			<latitude>-34.85675582637239</latitude>
+			<altitude>21.62648673949282</altitude>
+			<heading>350.137950566337</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>279.8528707528749</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28695435922298,-34.85665327105622,20.91154706497252</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="004E8841D24208FA3E9F">
+		<name>DOCK CARGAS UNILEVER</name>
+		<LookAt>
+			<longitude>-56.28741355490544</longitude>
+			<latitude>-34.85618490215327</latitude>
+			<altitude>22.50783331304032</altitude>
+			<heading>350.1380197791785</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>278.9715193596203</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.2875272280702,-34.85589486710338,24.05839014908339</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08C780506A4208FA8D43">
+		<name>MONDELEZ</name>
+		<LookAt>
+			<longitude>-56.28758284154419</longitude>
+			<latitude>-34.85528616519687</latitude>
+			<altitude>26.94849210325239</altitude>
+			<heading>350.1381154916232</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>274.5308767430834</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28781474623761,-34.85510668335822,28.96621488207091</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08B245048E4208FAC456">
+		<name>H-M</name>
+		<LookAt>
+			<longitude>-56.28758284154419</longitude>
+			<latitude>-34.85528616519687</latitude>
+			<altitude>26.94849210325239</altitude>
+			<heading>350.1381154916232</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>274.5308767430834</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28779294547346,-34.85520208765585,28.43114302082591</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="078CB4AC354208FB0753">
+		<name>VEHICULOS</name>
+		<LookAt>
+			<longitude>-56.28616882878101</longitude>
+			<latitude>-34.85495651636781</latitude>
+			<altitude>23.13672699872651</altitude>
+			<heading>350.1373051193409</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>278.3426415561917</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28598080933574,-34.85476741033916,23.31208607009001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DBAF759984208FB59DF">
+		<name>DOCK CARGAS PEPSICO</name>
+		<LookAt>
+			<longitude>-56.28549969409877</longitude>
+			<latitude>-34.85497747693046</latitude>
+			<altitude>22.22867067228283</altitude>
+			<heading>350.1369212015256</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>279.2506935439088</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28588012463708,-34.85501897754852,22.37485155944255</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AAE6A71D84208FB8A5F">
+		<name>OFICINAS PEPSICO</name>
+		<LookAt>
+			<longitude>-56.28436229263623</longitude>
+			<latitude>-34.85454427084088</latitude>
+			<altitude>20.60420910689527</altitude>
+			<heading>350.136269877056</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>280.8751883054356</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28408347800817,-34.8544683360515,19.93935376310322</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CB68385FE4208FBB361">
+		<name>ZONA DEPORTIVA</name>
+		<LookAt>
+			<longitude>-56.28436229263623</longitude>
+			<latitude>-34.85454427084088</latitude>
+			<altitude>20.60420910689527</altitude>
+			<heading>350.136269877056</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>280.8751883054356</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_046F50CEB64208D59D7E</styleUrl>
+		<Point>
+			<coordinates>-56.28342425924985,-34.85430372303923,18.93095927627589</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0651C7E1B4420929D1C4">
+		<name>mano única</name>
+		<LookAt>
+			<longitude>-56.28715194900778</longitude>
+			<latitude>-34.8582755249348</latitude>
+			<altitude>24.83665382039982</altitude>
+			<heading>-9.454856776431416</heading>
+			<tilt>0.3324480749799548</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>162.7317677240899</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.28725231685511,-34.85849695308708,0 -56.28713304397861,-34.85852518644453,0 -56.287003290072,-34.85850539813152,0 -56.28688224984184,-34.85845437235614,0 -56.28686612197166,-34.85838334358726,0 -56.28688413534447,-34.85828912740834,0 -56.28696770722397,-34.85820010727063,0 -56.28710187305811,-34.85817554279785,0 -56.28722690795059,-34.8582175043857,0 -56.28729455991578,-34.85831083080672,0 -56.28733489392696,-34.85845810968973,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0C7D2C712E42092A8FA8">
+		<name>mano única</name>
+		<LookAt>
+			<longitude>-56.28698594102018</longitude>
+			<latitude>-34.85871151618229</latitude>
+			<altitude>24.32654205793605</altitude>
+			<heading>-9.455077885294024</heading>
+			<tilt>0.3324495671995562</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>191.3695227634344</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.28692640933877,-34.8584731809017,0 -56.28687264028575,-34.85850839913823,0 -56.28680844392824,-34.85860084189314,0 -56.28674163072942,-34.85886230717023,0 -56.28660443046298,-34.85951126145651,0 -56.28655922366459,-34.8597476998533,0 -56.28658711238239,-34.85981782363824,0 -56.28663498306918,-34.85987043393551,0 -56.28672667865247,-34.85993420139613,0 -56.28687166372039,-34.8599112313299,0 -56.28696129191414,-34.85985790810898,0 -56.28702855116573,-34.85968870888631,0 -56.28709361917892,-34.85938252741789,0 -56.28722238990068,-34.85890704006572,0 -56.2872679766383,-34.85868877421593,0 -56.2871499035289,-34.85852073577483,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0D0698386942092AFA4C">
+		<name>Ruta sin título</name>
+		<LookAt>
+			<longitude>-56.28776456788089</longitude>
+			<latitude>-34.8594688146425</latitude>
+			<altitude>26.31364950134029</altitude>
+			<heading>350.5453660656583</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>189.4224305852185</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.28726789634901,-34.85868916064219,0 -56.28760531528877,-34.85873767533259,0 -56.28799269415945,-34.85880176018874,0 -56.28804758603022,-34.85883744371439,0 -56.28807014848905,-34.85888569338144,0 -56.28809483976483,-34.85895996564071,0 -56.28807489931636,-34.85921372312409,0 -56.28805487324937,-34.85972722931195,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0D396854F842092BD54C">
+		<name>Ruta sin título</name>
+		<LookAt>
+			<longitude>-56.28657082652619</longitude>
+			<latitude>-34.85842925100646</latitude>
+			<altitude>24.78656215330497</altitude>
+			<heading>-3.509381355030577</heading>
+			<tilt>8.462623013467807</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>321.5337271215321</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.28656366849496,-34.85975721914663,0 -56.28643350066368,-34.8599118656389,0 -56.28622161445798,-34.85997614712494,0 -56.28541191337222,-34.85986260770655,0 -56.28421452853242,-34.85968812560158,0 -56.28412786894211,-34.8596011464394,0 -56.28414887001102,-34.85946469573435,0 -56.28434272097327,-34.85847636721721,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="05661F700842092C0EB7">
+		<name>Ruta sin título</name>
+		<LookAt>
+			<longitude>-56.28378038360731</longitude>
+			<latitude>-34.85823708223483</latitude>
+			<altitude>19.22266531013533</altitude>
+			<heading>-3.50938103837625</heading>
+			<tilt>8.462630458326561</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>327.1589073085488</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.2868765132941,-34.85845374851723,0 -56.28362577757557,-34.85798428903409,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="01DF0AA77342092C5506">
+		<name>Ruta sin título</name>
+		<LookAt>
+			<longitude>-56.28352687948619</longitude>
+			<latitude>-34.86059760220834</latitude>
+			<altitude>22.00386145140949</altitude>
+			<heading>-1.719047409926493</heading>
+			<tilt>9.738737494312852</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>326.3262984067478</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.28392775683627,-34.85803119677435,0 -56.28382009863217,-34.85850817313082,0 -56.28392584931862,-34.85896103527418,0 -56.28357044817561,-34.86063043299463,0 -56.2832805597875,-34.86058800917553,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0C263BDCCF42092EFB70">
+		<name>Ruta sin título</name>
+		<LookAt>
+			<longitude>-56.28850939483784</longitude>
+			<latitude>-34.85898019198036</latitude>
+			<altitude>25.351856115905</altitude>
+			<heading>359.5345949512725</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>198.680560406283</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.28724925352105,-34.8584981034892,0 -56.28731800383021,-34.8584690020548,0 -56.28849199100731,-34.85880629403585,0 -56.28852517233364,-34.85890408650812,0 -56.28854057302393,-34.85902111032291,0 -56.28865467191075,-34.85915540609631,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="020365792542092FC4DB">
+		<name>Ruta sin título</name>
+		<LookAt>
+			<longitude>-56.28750859969832</longitude>
+			<latitude>-34.85680249071622</latitude>
+			<altitude>22.35022885571899</altitude>
+			<heading>359.5345868538964</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>292.0620652348225</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0B0A937D844209300820</styleUrl>
+		<LineString>
+			<coordinates>
+				-56.28713647004604,-34.85818752190426,0 -56.28772454492935,-34.85497693639932,0 -56.2840637727116,-34.85446394255995,0 -56.2834381024599,-34.85428621543388,0 -56.28407274043648,-34.85446403562113,0 -56.28596428073321,-34.8547292471681,0 -56.28556107879208,-34.8566610849618,0 -56.2873763721047,-34.85689202190299,0 -56.28740811809035,-34.85669996621292,0 -56.28695857081864,-34.85664898175484,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
