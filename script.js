@@ -407,8 +407,10 @@ function crearBotonesDeLugar(destino) {
     modalActions.innerHTML = "";
 
 
+    // Siempre true/false: con undefined, toggle() alternaría la clase
+    // en cada apertura en vez de fijarla
     const tieneLugares =
-        destino.lugares && destino.lugares.length > 0;
+        Boolean(destino.lugares && destino.lugares.length > 0);
 
     modalActions.classList.toggle(
         "modal-actions--grid",
