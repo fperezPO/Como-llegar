@@ -249,6 +249,36 @@
 
         </header>
 
+        <!-- Aviso cuando no se comparte la ubicación (lo muestra script.js) -->
+        <div
+            class="mapa-aviso"
+            id="mapaAviso"
+            role="alert"
+            hidden
+        >
+
+            <span
+                class="mapa-aviso-icono"
+                aria-hidden="true"
+            >!</span>
+
+            <div class="mapa-aviso-textos">
+
+                <strong id="mapaAvisoTitulo"></strong>
+
+                <span>Actualizar página para compartir ubicación</span>
+
+            </div>
+
+            <button
+                class="mapa-aviso-boton"
+                id="mapaAvisoBoton"
+            >
+                Actualizar
+            </button>
+
+        </div>
+
         <div
             class="mapa-contenedor"
             id="mapaContenedor"

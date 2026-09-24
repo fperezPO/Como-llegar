@@ -1161,6 +1161,8 @@ function iniciarGPS() {
 
         estadoGPS = "error";
 
+        actualizarAvisoUbicacion();
+
         return;
 
     }
@@ -1205,6 +1207,8 @@ function actualizarUbicacion(posicion) {
     );
 
     estadoGPS = "ok";
+
+    actualizarAvisoUbicacion();
 
     const precision =
         posicion.coords.accuracy;
@@ -1262,6 +1266,8 @@ function errorUbicacion(error) {
             ? "sin-permiso"
             : "error";
 
+    actualizarAvisoUbicacion();
+
     if (!ubicacionChofer) {
 
         actualizarRecorrido();
@@ -1269,6 +1275,58 @@ function errorUbicacion(error) {
     }
 
 }
+
+
+/* -----------------------------------------------------
+   Aviso de ubicación no compartida
+----------------------------------------------------- */
+
+const mapaAviso =
+    document.getElementById("mapaAviso");
+
+const mapaAvisoTitulo =
+    document.getElementById("mapaAvisoTitulo");
+
+const mapaAvisoBoton =
+    document.getElementById("mapaAvisoBoton");
+
+
+function actualizarAvisoUbicacion() {
+
+    // Sin permiso: siempre. Otro error: solo si nunca hubo ubicación
+    // (el GPS puede fallar un momento y después volver).
+    const mostrar =
+        estadoGPS === "sin-permiso" ||
+        (estadoGPS === "error" && !ubicacionChofer);
+
+    mapaAvisoTitulo.textContent =
+        estadoGPS === "sin-permiso"
+            ? "No estás compartiendo tu ubicación"
+            : "No se pudo obtener tu ubicación";
+
+
+    if (mapaAviso.hidden === !mostrar) return;
+
+    mapaAviso.hidden = !mostrar;
+
+    // El mapa cambió de alto: recalcular su tamaño
+    if (mapa) {
+
+        mapa.invalidateSize();
+
+    }
+
+}
+
+
+mapaAvisoBoton.addEventListener(
+    "click",
+    function() {
+
+        window.location.reload();
+
+    }
+);
 
 
 function formatearDistancia(metros) {

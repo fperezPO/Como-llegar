@@ -1892,6 +1892,154 @@ height: 7px;
 }
 
 
+/* Aviso de ubicación no compartida */
+
+.mapa-aviso {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        12px;
+
+    padding:
+        12px 16px;
+
+    background:
+        #C62828;
+
+    color:
+        var(--blanco);
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.3);
+
+    z-index:
+        1;
+
+}
+
+
+.mapa-aviso[hidden] {
+
+    display:
+        none;
+
+}
+
+
+.mapa-aviso-icono {
+
+    flex-shrink:
+        0;
+
+    width:
+        34px;
+
+    height:
+        34px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        50%;
+
+    background:
+        var(--blanco);
+
+    color:
+        #C62828;
+
+    font-size:
+        22px;
+
+    font-weight:
+        700;
+
+}
+
+
+.mapa-aviso-textos {
+
+    flex:
+        1;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        2px;
+
+    font-size:
+        15px;
+
+    line-height:
+        1.3;
+
+}
+
+
+.mapa-aviso-textos strong {
+
+    font-size:
+        17px;
+
+}
+
+
+.mapa-aviso-boton {
+
+    flex-shrink:
+        0;
+
+    padding:
+        10px 16px;
+
+    border:
+        none;
+
+    border-radius:
+        50px;
+
+    background:
+        var(--blanco);
+
+    color:
+        #C62828;
+
+    font-family:
+        'Lato',
+        Arial,
+        sans-serif;
+
+    font-size:
+        14px;
+
+    font-weight:
+        700;
+
+    text-transform:
+        uppercase;
+
+    cursor:
+        pointer;
+
+}
+
+
 .mapa-contenedor {
 
     flex:
